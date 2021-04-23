@@ -100,6 +100,7 @@ class Game:
     
     
     
+    # This algorithm still needs more work
     # This algorithm will remove the already perfect pair and randomize the number of non-perfect pairs determined by evaluate_rest (seems to go on forever)
     def specific_random_alg(self, list_of_pairs):
         self.num_perf_pairs, perf_rest = 0, 0
@@ -122,7 +123,6 @@ class Game:
                 #self.specific_random_alg(self.pairs)
         
         self.debug_prints()
-    
 
     # This helps debug by printing all the pairs to make sure they are paired with their perfect pair at the end
     def debug_prints(self):
